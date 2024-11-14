@@ -15,3 +15,4 @@ pydantic==1.10.10
 PyPDF2
 pytesseract
 pdf2image
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
