@@ -5,7 +5,7 @@ llama-cpp-python==0.1.50
 urllib3==1.26.7
 PyMuPDF==1.22.3
 python-dotenv==1.0.0
-unstructured==0.6.6
+unstructured==0.14.3
 extract-msg==0.41.1
 tabulate==0.9.0
 pandoc==2.3
@@ -15,3 +15,4 @@ pydantic==1.10.10
 PyPDF2
 pytesseract
 pdf2image
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
